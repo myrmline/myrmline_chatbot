@@ -1,0 +1,33 @@
+.message-row {
+  display: flex;
+  margin: 6px 0;
+}
+
+.message-row-user {
+  justify-content: flex-end;
+}
+
+.message-row-bot {
+  justify-content: flex-start;
+}
+
+.message-bubble {
+  max-width: 75%;
+  padding: 10px 14px;
+  border-radius: 16px;
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: pre-line;
+}
+
+.message-bubble-user {
+  background-color: #e8a1a8;
+  color: #ffffff;
+  border-bottom-right-radius: 4px;
+}
+
+.message-bubble-bot {
+  background-color: #f2f2f2;
+  color: #333333;
+  border-bottom-left-radius: 4px;
+}

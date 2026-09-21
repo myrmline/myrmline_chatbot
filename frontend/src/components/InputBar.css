@@ -1,0 +1,55 @@
+.input-bar {
+  display: flex;
+  gap: 8px;
+  padding: 12px 16px;
+  border-top: 1px solid #eee;
+  background-color: #ffffff;
+  border-radius: 0 0 12px 12px;
+  flex-wrap: wrap;
+}
+
+.input-field {
+  flex: 1;
+  min-width: 150px;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: #e8a1a8;
+}
+
+.btn {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-send {
+  background-color: #e8a1a8;
+  color: #ffffff;
+}
+
+.btn-send:hover:not(:disabled) {
+  opacity: 0.85;
+}
+
+.btn-clear {
+  background-color: #f2f2f2;
+  color: #555;
+}
+
+.btn-clear:hover:not(:disabled) {
+  opacity: 0.85;
+}
