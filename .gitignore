@@ -11,7 +11,7 @@ Thumbs.db
 
 # Environment
 .env
-.env.*
+
 
 # Build
 dist/
